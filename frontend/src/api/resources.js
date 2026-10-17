@@ -28,6 +28,12 @@ export const reportsApi = {
 export const dashboardApi = {
   summary: () => request('/dashboard/summary'),
   mapLayers: (params) => request('/dashboard/map-layers', { params }),
+  tigerGeoJson: () => request('/dashboard/tiger-geojson'),
+};
+
+export const spatialApi = {
+  getAll: () => request('/spatial-intelligence'),
+  getSummary: () => request('/spatial-intelligence/summary'),
 };
 
 export const authApi = {

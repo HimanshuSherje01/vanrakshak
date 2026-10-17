@@ -1,8 +1,9 @@
-import { LayoutDashboard, Map, PawPrint, Leaf, ShieldAlert, Footprints, Bell, FileText, Database, Settings } from 'lucide-react';
+import { LayoutDashboard, Map, PawPrint, Leaf, ShieldAlert, Footprints, Bell, FileText, Database, Settings, Flame } from 'lucide-react';
 
 export const NAV_ITEMS = [
   { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/forest-map', label: 'Forest Map', icon: Map },
+  { path: '/spatial-intelligence', label: 'Heatmap & Intelligence', icon: Flame },
   { path: '/observations', label: 'Animal Observations', icon: PawPrint },
   { path: '/vegetation', label: 'Vegetation Analysis', icon: Leaf },
   { path: '/incidents', label: 'Incidents', icon: ShieldAlert },

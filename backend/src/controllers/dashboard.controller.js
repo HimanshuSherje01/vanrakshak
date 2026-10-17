@@ -40,3 +40,14 @@ export const getMapLayers = asyncHandler(async (req, res) => {
   ]);
   res.json({ zones, features, observations, incidents, patrols });
 });
+
+let cachedGeoJson = null;
+
+export const getTigerGeoJson = asyncHandler(async (_req, res) => {
+  if (!cachedGeoJson) {
+    const filePath = new URL('../assets/tadoba_tiger_observations.geojson', import.meta.url);
+    const raw = await import('fs/promises').then((fs) => fs.readFile(filePath, 'utf-8'));
+    cachedGeoJson = JSON.parse(raw);
+  }
+  res.json(cachedGeoJson);
+});

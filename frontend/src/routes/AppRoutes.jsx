@@ -4,6 +4,7 @@ import AppLayout from '../components/layout/AppLayout.jsx';
 import LoginPage from '../pages/LoginPage.jsx';
 import DashboardPage from '../pages/DashboardPage.jsx';
 import ForestMapPage from '../pages/ForestMapPage.jsx';
+import SpatialIntelligencePage from '../pages/SpatialIntelligencePage.jsx';
 import ObservationsPage from '../pages/ObservationsPage.jsx';
 import VegetationPage from '../pages/VegetationPage.jsx';
 import IncidentsPage from '../pages/IncidentsPage.jsx';
@@ -23,6 +24,7 @@ export default function AppRoutes() {
           <Route index element={<Navigate to="/dashboard" replace />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/forest-map" element={<ForestMapPage />} />
+          <Route path="/spatial-intelligence" element={<SpatialIntelligencePage />} />
           <Route path="/observations" element={<ObservationsPage />} />
           <Route path="/vegetation" element={<VegetationPage />} />
           <Route path="/incidents" element={<IncidentsPage />} />

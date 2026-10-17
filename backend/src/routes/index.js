@@ -12,6 +12,7 @@ import userRoutes from './user.routes.js';
 import alertRoutes from './alert.routes.js';
 import reportRoutes from './report.routes.js';
 import dashboardRoutes from './dashboard.routes.js';
+import spatialRoutes from './spatial.routes.js';
 
 const router = Router();
 
@@ -22,6 +23,7 @@ router.use('/auth', authRoutes);
 router.use(protect);
 router.use('/users', userRoutes);
 router.use('/dashboard', dashboardRoutes);
+router.use('/spatial-intelligence', spatialRoutes);
 router.use('/observations', buildCrudRouter(observationCrud));
 router.use('/incidents', buildCrudRouter(incidentCrud));
 router.use('/patrols', buildCrudRouter(patrolCrud));

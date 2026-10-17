@@ -1,0 +1,9 @@
+range,zone,lat,lon,area_km2,villages_5km,dist_village_km,road_km_per_100km2,waterholes_per_100km2,tiger_density_rel
+Moharli,core,20.3,79.34,110,6,2.5,6,9,1.0
+Tadoba,core,20.24,79.34,105,5,3.5,7,8,0.95
+Kolsa,core,20.17,79.4,120,4,3.0,4,6,0.8
+Alizanza,core,20.36,79.36,95,4,3.2,4,6,0.75
+Palasgaon,buffer,20.21,79.47,130,14,0.9,9,5,0.55
+Khadsangi,buffer,20.28,79.56,140,16,0.8,10,4,0.5
+Chimur_Buffer,buffer,20.49,79.39,150,18,0.7,11,3,0.45
+Shivani_Buffer,buffer,20.08,79.3,125,12,1.0,8,4,0.4
