@@ -1,0 +1,19 @@
+export const ROLES = ['admin', 'forest_officer', 'ranger', 'analyst'];
+export const WRITE_ROLES = ['admin', 'forest_officer', 'ranger'];
+export const DELETE_ROLES = ['admin', 'forest_officer'];
+export const DATA_ROLES = ['admin', 'analyst'];
+
+export const ZONES = ['Core Zone', 'Buffer Zone', 'Periphery'];
+export const SPECIES_CATEGORIES = ['Tiger', 'Leopard', 'Wild Boar', 'Deer', 'Others'];
+export const OBSERVATION_SOURCES = ['Camera Trap', 'Patrol', 'Manual Entry'];
+export const INCIDENT_TYPES = ['Poaching', 'Snare', 'Fire', 'Human Intrusion', 'Vehicle Activity', 'Others'];
+export const INCIDENT_STATUS = ['Pending', 'Under Review', 'Verified', 'Closed'];
+export const PRIORITIES = ['High', 'Medium', 'Low'];
+export const ALERT_STATUS = ['Open', 'Reviewed', 'Dismissed', 'Escalated'];
+export const PATROL_STATUS = ['Planned', 'In Progress', 'Completed'];
+export const FEATURE_KINDS = ['camera_node', 'village', 'water_body', 'gate'];
+export const FEATURE_STATUS = ['Active', 'Inactive', 'Maintenance'];
+export const HEALTH_STATUS = ['Healthy', 'Moderate', 'Stressed'];
+export const REPORT_TYPES = ['Monthly Summary', 'Incident Report', 'Wildlife Observation Report', 'Patrol Coverage Report'];
+export const DATA_STATUS = ['Active', 'Processing', 'Archived'];
+export const MODEL_STATUS = ['Active', 'Testing', 'Retired'];
